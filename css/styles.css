@@ -203,12 +203,13 @@ body{
     position: absolute;
     width: 1px;
     height: 1px;
-    padding: 0;
     margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .list-flex{
     display: flex;
@@ -229,6 +230,7 @@ body{
 
 .team-list-item{
 background-color:var(--white-background);
+border-radius: 0px 0px 4px 4px;
 }
 
 
